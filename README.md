@@ -1,34 +1,3 @@
-Install on Win https://www.cygwin.com/
-============================
-1. The ln command links the file designated in the SourceFile parameter to the file designated by the TargetFile parameter or to the same file name in another directory specified by the TargetDirectory parameter. By default, the ln command creates hard links.
-2. "You would not be corrupting Cygwin if you copied files to /home. But you might prefer to let Cygwin put you in /home/{yourusername} and then create symlinks to your Windows' Documents, Pictures, etc.
-
-ln -s /cygdrive/C/Users/yourusername/Documents
-ln -s /cygdrive/C/Users/yourusername/Pictures
-#...etc..."
-
-3. How to Use Cygwin https://www.wikihow.com/Use-Cygwin
-
-Explore the basic commands. Some of the basic commands are listed in the table below alongside their corresponding command in Windows.
-| Action	| Windows	| Cygwin
-| list directory	| dir	| ls
-| clear console	| cls	| clear
-| copy file(s)	| copy	| cp
-| move file(s)	| move	| mv
-| delete file(s)	| del	| rm
-| create directory	| md	| mkdir
-| remove directory	| rd	| rm -rf
-| change current directory	| cd	| cd
-| current directory	| cd,  chdir	| pwd
-| search	| find	| grep
-| concatenate	| cat	| cat
-| permissions	| chmod	| chmod
-| display/output text	| echo	e| cho
-
-
-
-
-
 Cygwin Install GitHub Action
 ============================
 
