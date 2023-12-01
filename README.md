@@ -10,20 +10,20 @@ ln -s /cygdrive/C/Users/yourusername/Pictures
 3. How to Use Cygwin https://www.wikihow.com/Use-Cygwin
 
 Explore the basic commands. Some of the basic commands are listed in the table below alongside their corresponding command in Windows.
-Action	Windows	Cygwin
-list directory	dir	ls
-clear console	cls	clear
-copy file(s)	copy	cp
-move file(s)	move	mv
-delete file(s)	del	rm
-create directory	md	mkdir
-remove directory	rd	rm -rf
-change current directory	cd	cd
-current directory	cd, chdir	pwd
-search	find	grep
-concatenate	cat	cat
-permissions	chmod	chmod
-display/output text	echo	echo
+| Action	| Windows	| Cygwin
+| list directory	| dir	| ls
+| clear console	| cls	| clear
+| copy file(s)	| copy	| cp
+| move file(s)	| move	| mv
+| delete file(s)	| del	| rm
+| create directory	| md	| mkdir
+| remove directory	| rd	| rm -rf
+| change current directory	| cd	| cd
+| current directory	| cd,  chdir	| pwd
+| search	| find	| grep
+| concatenate	| cat	| cat
+| permissions	| chmod	| chmod
+| display/output text	| echo	e| cho
 
 
 
